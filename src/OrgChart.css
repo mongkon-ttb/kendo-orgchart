@@ -19,6 +19,7 @@ body {
     margin-bottom: 1rem;
 }
 
+/* สีเส้น */
 .p-organizationchart .p-organizationchart-node-content {
     border: 1px solid #FF0000;
 }
@@ -32,4 +33,11 @@ body {
 }
 .p-organizationchart .p-organizationchart-line-down {
     background: #FF0000;
+}
+
+/* สีลูกศร */
+.p-organizationchart .p-organizationchart-node-content .p-node-toggler {
+    background: inherit;
+    color: #FF0000;
+    border-radius: 50%;
 }
